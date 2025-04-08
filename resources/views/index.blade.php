@@ -19,7 +19,7 @@
 </head>
 <body class="bg-gradient-to-br from-gray-900 to-black text-white flex justify-center items-center min-h-screen relative overflow-hidden">
 
-    <!-- أيقونات العملات المتحركة في الخلفية -->
+   
     <div class="absolute inset-0 flex justify-around opacity-20 pointer-events-none">
         <img src="https://cryptologos.cc/logos/bitcoin-btc-logo.png?v=023" class="w-20 h-20 floating">
         <img src="https://cryptologos.cc/logos/ethereum-eth-logo.png?v=023" class="w-16 h-16 floating">
