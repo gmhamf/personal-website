@@ -30,11 +30,7 @@
           </button>
         </div>
       </header>
-      <div class="absolute inset-0 flex justify-around opacity-20 pointer-events-none">
-        <img src="https://cryptologos.cc/logos/bitcoin-btc-logo.png?v=023" class="w-20 h-20 floating">
-        <img src="https://cryptologos.cc/logos/ethereum-eth-logo.png?v=023" class="w-16 h-16 floating">
-        <img src="https://cryptologos.cc/logos/binance-coin-bnb-logo.png?v=023" class="w-16 h-16 floating">
-      </div>
+   
 
   <main class="flex-grow container mx-auto px-4 py-12">
 
