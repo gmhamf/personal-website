@@ -9,7 +9,7 @@ class CurrencyController extends Controller
 {
     public function index()
     {
-        return view('index');
+        return view('cone');
     }
 
     public function convert(Request $request)
@@ -18,7 +18,7 @@ class CurrencyController extends Controller
         $to = $request->input('to_currency');
         $amount = $request->input('amount');
 
-        
+
         $response = Http::get("https://api.coingecko.com/api/v3/simple/price", [
             'ids' => $from,
             'vs_currencies' => $to
@@ -29,7 +29,7 @@ class CurrencyController extends Controller
 
             if ($rate) {
                 $convertedAmount = $amount * $rate;
-                return view('index', compact('convertedAmount', 'amount', 'from', 'to'));
+                return view('convert', compact('convertedAmount', 'amount', 'from', 'to'));
             } else {
                 return back()->with('error', 'Conversion rate not found.');
             }

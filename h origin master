@@ -1,0 +1,11 @@
+[33mcommit 92ca0b18cca4b94f605cfee5c99594081860fcac[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: gmhamf <gmhamf@gmail.com>
+Date:   Tue Apr 8 20:59:35 2025 +0300
+
+    Update index.blade.php
+
+[33mcommit 6bbf3f7828f6bb69248d08bb25a09cacd10f802a[m
+Author: gmhamf <gmhamf@gmail.com>
+Date:   Tue Apr 8 20:48:02 2025 +0300
+
+    Initial commit
