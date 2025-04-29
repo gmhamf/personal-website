@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 
-<<<<<<< HEAD
+
 <body class="dark:bg-gradient-to-b dark:from-black dark:via-gray-900 dark:to-black min-h-screen flex flex-col text-yellow-400 font-sans transition-colors duration-300">
 
     <header class="flex justify-between items-center p-6 bg-black/50 backdrop-blur-md">
@@ -30,11 +30,7 @@
           </button>
         </div>
       </header>
-      <div class="absolute inset-0 flex justify-around opacity-20 pointer-events-none">
-        <img src="https://cryptologos.cc/logos/bitcoin-btc-logo.png?v=023" class="w-20 h-20 floating">
-        <img src="https://cryptologos.cc/logos/ethereum-eth-logo.png?v=023" class="w-16 h-16 floating">
-        <img src="https://cryptologos.cc/logos/binance-coin-bnb-logo.png?v=023" class="w-16 h-16 floating">
-      </div>
+
 
   <main class="flex-grow container mx-auto px-4 py-12">
 
