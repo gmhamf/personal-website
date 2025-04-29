@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 
-<<<<<<< HEAD
+
 <body class="dark:bg-gradient-to-b dark:from-black dark:via-gray-900 dark:to-black min-h-screen flex flex-col text-yellow-400 font-sans transition-colors duration-300">
 
     <header class="flex justify-between items-center p-6 bg-black/50 backdrop-blur-md">
