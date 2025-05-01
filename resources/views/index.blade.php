@@ -79,7 +79,7 @@
             <div class="flex-1">
               <div class="flex items-center gap-3">
                 <div class="w-2 h-2 bg-green-500 rounded-full animate-pulse"></div>
-                <span class="text-gray-500 text-sm" data-translate="statusActive">مُفعّل</span>
+                <span class="text-gray-500 text-sm" data-translate="project1Status">مُفعّل</span>
               </div>
             </div>
           </div>
@@ -111,7 +111,7 @@
             <div class="flex-1">
               <div class="flex items-center gap-3">
                 <div class="w-2 h-2 bg-blue-500 rounded-full animate-pulse"></div>
-                <span class="text-gray-500 text-sm" data-translate="statusInDevelopment">قيد البرمجة</span>
+                <span class="text-gray-500 text-sm" data-translate="project2Status">قيد البرمجة</span>
               </div>
             </div>
           </div>
@@ -127,7 +127,7 @@
             <span class="tech-badge">Tailwind CSS</span>
           </div>
 
-          <a href="/com" class="inline-flex items-center gap-2 text-yellow-400 hover:text-yellow-300 transition-colors font-medium">
+          <a href="/tasks/" class="inline-flex items-center gap-2 text-yellow-400 hover:text-yellow-300 transition-colors font-medium">
             <span data-translate="viewDetails">عرض التفاصيل</span>
             <i class="fas fa-arrow-left text-sm"></i>
           </a>
@@ -142,7 +142,7 @@
             <div class="flex-1">
               <div class="flex items-center gap-3">
                 <div class="w-2 h-2 bg-gray-500 rounded-full animate-pulse"></div>
-                <span class="text-gray-500 text-sm" data-translate="statusInactive">غير مُفعّل</span>
+                <span class="text-gray-500 text-sm" data-translate="project3Status">غير مُفعّل</span>
               </div>
             </div>
           </div>
@@ -309,6 +309,7 @@
     let currentLang = 'ar';
     const translations = {
   ar: {
+    viewDetails: "عرض التفاصيل",
     contactSub: "أرسل لي رسالة وسأرد في أسرع وقت ممكن",
     home: "الرئيسية",
     projects: "المشاريع",
@@ -347,6 +348,7 @@
     ar: "AR"
   },
   en: {
+    viewDetails: "View Details",
     contactSub: "Send me a message and I'll respond as soon as possible",
     home: "Home",
     projects: "Projects",
